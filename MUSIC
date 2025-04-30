@@ -1,0 +1,68 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("MUISC JUDEE", "Ocean")
+
+--Main DECAYING WINTER SOUNDTRACKS  
+local M = Window:NewTab("Main DW")
+    local MSection = M:NewSection("Music")
+
+    MSection:NewButton("Scavenger War", "Scav war", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/XcRicDUn')))()
+    end)
+
+    MSection:NewButton("Night10", "When: Night10", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/XixHHwgt')))()
+    end)
+    
+    local Music = Window:NewTab("Music")
+    local MusicSection = Music:NewSection("Music")
+
+    MusicSection:NewButton("Zealot", "Zealot void, Brrrrr!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/bLJWdddX')))()
+    end)
+    
+    
+    MusicSection:NewButton("SledgeQueen(Holdout)", "Omg, you fucking simp!!!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/1TDhD39m')))()
+    end)
+    
+    
+    MusicSection:NewButton("Medieval", "Commander! Get rekt!!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/S8XFGUut')))()
+    end)
+    
+    
+    MusicSection:NewButton("Enemy", "Oh the mistery.", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/Mn3BB6yq')))()
+    end)
+    
+    
+    MusicSection:NewButton("Rhyer", "Slash your fking ass", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/T8P4XH0K')))()
+    end)
+
+    MusicSection:NewButton("Lumi", "Feint Feint Feint.", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/47bNQSQL')))()
+    end)
+
+    local TMusic = Window:NewTab("Troll")
+    local TMusicSection = TMusic:NewSection("Music")
+
+    TMusicSection:NewButton("The Rock SUS!?", "M M M M M!!!!????", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/u3Gu1nFB')))()
+    end)
+
+    TMusicSection:NewButton("Nokia ahh Ringtone", "T NENE NE T NENE NE T NENE NENEEEEEEEEEE", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/R8vW8BAb')))()
+    end)
+
+    local CMusic = Window:NewTab("Christmas Events")
+    local CMusicSection = CMusic:NewSection("Music")
+
+    CMusicSection:NewButton("Lumi", "Lumi in Christmas", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/32Rz8bk3')))()
+    end)
+
+    CMusicSection:NewButton("Snow", "Night10 Christmas", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/Y8bV18ti')))()
+    end)
+    
