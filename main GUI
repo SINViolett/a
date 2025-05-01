@@ -1,0 +1,314 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Welcome"; -- the title 
+    Text = "Loading, This may contain longer if you load for the first time"; -- what the text says 
+    Duration = 5; -- how long the notification should in secounds
+    })
+    
+    wait(2)
+    
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "Loaded"; -- the title 
+    Text = "Enjoy, Darling"; -- what the text says 
+    Duration = 5; -- how long the notification should in secounds
+    })
+
+    --MainScript
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("JKBZ S$uD!o", "Synapse")
+    
+    
+    --Social
+    local Social = Window:NewTab("MainSocial")
+    local SocialSection = Social:NewSection("Social")
+    
+    
+    SocialSection:NewButton("Youtube Channel: Puffy (puffywan9850)", "Uh.. why", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/JgyxyW84')))()
+    end)
+    
+    SocialSection:NewButton("Twitter: Sepsledge 69 (sepsledge)", "Uh.. why", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/JgyxyW84')))()
+    end)
+    
+    
+    SocialSection:NewButton("FUCKS BYFRON", "I alone am the hated one", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/JgyxyW84')))()
+    end)
+    
+    
+    --Main
+    local Main = Window:NewTab("DWMain")
+    local MainSection = Main:NewSection("DW")
+    
+    
+    MainSection:NewButton("Godwill", "Simple script, Wanna team kill? PATCHED", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aidez/decaying_winter/main/GOODWILL_COMMAND_SCRIPT'),true))()
+    end)
+    
+    
+    MainSection:NewButton("Newest Hack UI", "flawless! PATCHED", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JxcExploit/notmine/main/decayingwinter'),true))()
+    end)
+    
+    
+    MainSection:NewButton("Became SledgeQueen!", "Simp? I don't know you are or not, But I don't... PATCHED", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/s9eURmiU')))()
+    end)
+    
+    
+    MainSection:NewButton("Scavs Hub V.2", "Second best hack of all time! (KEY IN THE SCRIPT LIST)", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Error70XD/just-sum-random-shit/refs/heads/main/idk.3'))()
+    end)
+    
+    
+    -- KEY:     W̴̛̊E̸̋̀B̵͂̔A̷̋͌C̴͋͛Ḱ̸̽
+    
+    
+    MainSection:NewButton("Scavs Hub V.2 (PAID)", "WHITELIST ONLY! (KEY IN THE SCRIPT LIST) (IN PROGRESS)", function()
+         loadstring(game:HttpGet('https://raw.githubusercontent.com/Error70XD/just-sum-random-shit/refs/heads/main/idk.4'))()
+    end)
+    
+    
+    -- KEY:     Ó̶͗M̸̫̅Ǵ̸̒G̸̰͘
+    
+    
+    --Items
+    local Item = Window:NewTab("Item")
+    local ItemSection = Item:NewSection("Item")
+    
+    
+    ItemSection:NewButton("KSG", "Boom! Shotgun!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/PC1jLMcd')))()
+    end)
+    
+    
+    ItemSection:NewButton("DeciHammer", "Let's be Rayzen!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/VYKhvSpx')))()
+    end)
+    
+    
+    ItemSection:NewButton("AdvandMed", "I guess I4S better.", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/tLY95C6q')))()
+    end)
+    
+    
+    ItemSection:NewButton("GreenStim(I4S)", "Yeah, This one is best heal item!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/cTXW8rz7')))()
+    end)
+    
+    
+    ItemSection:NewButton("ClawGang!", "So fucking low damage But so cool is became Sickler!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/RKk2aVkQ')))()
+    end)
+    
+    
+    ItemSection:NewButton("BiliHook", "Spear stun, Op item.", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/NBa9VKfT')))()
+    end)
+    
+    
+    ItemSection:NewButton("TAC", "Shield, and Uhhh Shield.", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/JqeaS5hp')))()
+    end)
+    
+    
+    ItemSection:NewButton("S44 (Blue Stim)", "Jabing is so good If you poke me. Kinda sus ngl.", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/SY32RB3p')))()
+    end)
+    
+    
+    ItemSection:NewButton("Backpack (BPK)", "Survivalist?!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/sT8gLGqL')))()
+    end)
+    
+    
+    ItemSection:NewButton("ExeSword", "You know Zealot Void? Guhh! If you don't. Be death!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/kaVuXEZZ')))()
+    end)
+    
+    
+    ItemSection:NewButton("Bl1 (OrangeStim)", "Warning, Agent on your team is down.", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/cTc83Z6T')))()
+    end)
+    
+    
+    ItemSection:NewButton("Hunting Axe", "So trash, Don't mind it", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/2UjYR0Dp')))()
+    end)
+    
+    
+    --Items Patched
+    local ItemP = Window:NewTab("ItemP")
+    local ItemPSection = ItemP:NewSection("ItemP")
+    
+    
+    ItemPSection:NewButton("Juggernaut Box(Kit)", "Funny kit/box, But i miss it... :< It's patched.. *sob*", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/ahN6ft8K')))()
+    end)
+    
+    
+    --ESP
+    local ESP = Window:NewTab("ESP")
+    local ESPSection = ESP:NewSection("ESP")
+    
+    
+    ESPSection:NewButton("ESP", "ESP NAME BTW!!!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/q7KhMTqq')))()
+    end)
+    
+    
+    ESPSection:NewButton("ESP Scavs", "ESP scavanger (M to refresh)", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/KAB4GrXh')))()
+    end)
+    
+    
+    --Music section
+    local Music = Window:NewTab("Music")
+    local MusicSection = Music:NewSection("Music")
+    
+    
+    MusicSection:NewButton("Music GUI", "Extra Music in here ;)", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SINViolett/a/refs/heads/main/MUSIC"))()
+    end)
+    
+    --MainUMG you should not use this one on umg:r cuz it can getting ban. I warn you yet.
+    local UMG = Window:NewTab("UMG:R")
+    local UMGSection = UMG:NewSection("UMG:R")
+    
+    
+    UMGSection:NewButton("Best hacks cmd (INFYID)", "Infinite Yeid Is Good!", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end)
+    
+    
+    UMGSection:NewButton("Kill Aura", "Reach attacks", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/X1jvt1J2')))()
+    end)
+    
+    
+    UMGSection:NewButton("ESP", "ESP Hacks", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/dfyhdTG0')))()
+    end)
+    
+    UMGSection:NewButton("ESP NAME", "ESP Hacks But It's Name", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/j29RQKyq')))()
+    end)
+    
+    
+    UMGSection:NewButton("Speed Hacks (25)", "IShowSpeed?!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/W9edCfyY')))()
+    end)
+    
+    
+    --Arsenal
+    local AS = Window:NewTab("Arsenal")    
+    local ASSection = AS:NewSection("Main")
+    
+    ASSection:NewButton("Owl Hub", "Basic but still good. SAD PATCHED", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt')))()
+    end)
+
+
+    ASSection:NewButton("Virtual Hub", "good", function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/DomainXV3/DomainX/main/virtual.cc",true))()
+    end)
+    
+
+    ASSection:NewButton("?", "?", function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/93f86be991de0ff7d79e6328e4ceea40.lua"))() 
+      end)
+
+    
+    --The Strongest Battlegrounds
+    local TSB = Window:NewTab("TSBG")
+    local TSBSection = TSB:NewSection("TSBG")
+    
+    TSBSection:NewButton("Staoru Gojo Moveset", "The Strongest", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+    end)
+    
+
+    TSBSection:NewButton("Staoru Gojo Moveset V2", "The Strongest Of Today", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua"))()
+    end)
+
+    
+    TSBSection:NewButton("Ryomen Sukuna Moveset (Saitama)", "The Strongest Of The History", function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/h8h88/hubfr/main/hubfr")()
+    end)
+    
+    
+    TSBSection:NewButton("Ryomen Sukuna Moveset (Blade Master)", "The Strongest Of The History", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
+    end)
+    
+
+    TSBSection:NewButton("Mahito", "MaHEHEto", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Mahitotsbupdate",true))()
+    end)
+
+
+    TSBSection:NewButton("KadeHub", "random tsb hack", function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/KadeHubRepository/main/Latest.lua"))()
+
+    end)
+
+    --Others
+    local ANG = Window:NewTab("Others")
+    local ANGSection = ANG:NewSection("AnyGame")
+    
+    ANGSection:NewButton("Fullbright", "WHY DO YOU USE DISCORD LIGHT MODE!!!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/jZRYfLXX')))()
+    end)
+    
+    
+    ANGSection:NewButton("ESP BOX", "gotcha!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/WtTuCbdk')))()
+    end)
+    
+    
+    ANGSection:NewButton("ESP NAME", "I saw your name. (username)", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/j29RQKyq')))()
+    end)
+    
+    
+    ANGSection:NewButton("Infinite Yeid", "good hacks", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end)
+    
+    
+    ANGSection:NewButton("Steeps step", "[PATCHED]", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kodescripts/scripts/main/Flight.lua"))()
+    end)
+    
+    
+    ANGSection:NewButton("HoHoHub", "BloxFruit", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/4gnXh3RR')))()
+    end)
+    
+    
+    ANGSection:NewButton("Doors (A-0000)", "The Rooms Only!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+    end)
+    
+    
+    ANGSection:NewButton("Doors", "The Hotel Only!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+    end)
+
+
+    ANGSection:NewButton("Teleport", "kinda sucks but still works!", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/MsVUHHq0"))()
+    end)
+
+ ANGSection:NewButton("Spectate", "kinda sucks but still works!", function()
+        loadstring(game:HttpGet("https://pastefy.app/a2xGo1re/raw"))()
+    end)
+
+    --End of the Notification.
+
+    game.StarterGui:SetCore("SendNotification", {
+        Title = ":>"; -- the title 
+        Text = "We are so happy that you still use our script GUI, Stay on us."; -- what the text says 
+        Duration = 7; -- how long the notification should in secounds
+        })
