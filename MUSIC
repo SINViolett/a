@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("MUISC JUDEE", "Ocean")
+local Window = Library.CreateLib("MUISC", "Ocean")
 
 --Main DECAYING WINTER SOUNDTRACKS  
 local M = Window:NewTab("Main DW")
